@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>Week 4 Game</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<script type="text/javascript" src="assets/javascript/jquery-2.2.3.js"></script>
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
 </head>
@@ -11,53 +11,81 @@
 <div class="container">
 
 	<!-- Game title -->
-	<h1>Cats Collector</h1>
+	<div class="row">
+		<h1 class="col-lg-12">Cats Collector</h1>
+	</div>
 
 	<!-- Instructions -->
-	<div class="panel panel-default">
- 		<div class="panel-heading"><h3>Instructions</h3></div>
-  		<ul class="list-group">
-  			<li class="list-group-item">1. You will be given a random target number at the start of the game.</li>
-    		<li class="list-group-item">2. There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
-    		<li class="list-group-item">3. You win the game by matching your total score to the random number. You lose if your total score goes above the random number.</li>
-   	 		<li class="list-group-item">4. The value of each crystal is hidden from you until you click on it.</li>
-    		<li class="list-group-item">5. At the beginning of each game, the value of each crystal will change.</li>
-  		</ul>
+	<div class="row">
+		<div class="panel panel-default col-lg-5">
+ 			<div class="panel-heading"><h3>Instructions</h3></div>
+  			<ul class="list-group">
+  				<li class="list-group-item">1. You will be given a random target number at the start of the game.</li>
+    			<li class="list-group-item">2. There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+    			<li class="list-group-item">3. You win the game by matching your total score to the random number. You lose if your total score goes above the random number.</li>
+   	 			<li class="list-group-item">4. The value of each crystal is hidden from you until you click on it.</li>
+    			<li class="list-group-item">5. At the beginning of each game, the value of each crystal will change.</li>
+  			</ul>
+		</div>
+
+
+
+
+		<!-- Randomly generated number -->
+		<div class="col-lg-6">
+			<div class="row">
+				<div class="targnum col-lg-4">
+			 		<h3>Target:</h3>
+	 	 			<h1 class="randnum">42</h1>
+	 	 		</div>
+			
+
+				<!-- Your Number -->
+				<div class="yournum col-lg-4">
+					 <h3>Current:</h3>
+	 	 			<h1 class="randnum">36</h1>
+				</div>
+
+				<!-- Wins and losses -->
+				<ul class="list-group col-lg-4">
+	  				<li class="list-group-item">
+	    			<span class="badge">14</span>
+	    			Wins:
+	  				</li>
+	  				<li class="list-group-item">
+	    			<span class="badge">12</span>
+	    			Losses:
+	  				</li>
+				</ul>
+			</div>
+
+		
+			<!-- Cats -->
+			<div class="row">
+	
+			<button class="btn btn-default btn1 col-lg-3">
+			<img src="assets/images/cat1a.png" alt="cat1" class="img-circle"/>
+			</button>
+			<button class="btn btn-default btn2 col-lg-3">
+			<img src="assets/images/cat2a.png" alt="cat1" class="img-circle"/>
+			</button>
+			<button class="btn btn-default btn3 col-lg-3">
+			<img src="assets/images/cat3a.png" alt="cat1" class="img-circle"/>
+			</button>
+			<button class="btn btn-default btn4 col-lg-3">
+			<img src="assets/images/cat4a.png" alt="cat1" class="img-circle"/>
+			</button>
+
+			</div>
+
+
+		</div>
+
 	</div>
 
-	<!-- Randomly generated number -->
-	<div class="jumbotron">
-		 <h3>Target Number:</h3>
- 	 	<h1 class="randnum">42</h1>
-	</div>
-
-	<!-- Wins and losses -->
-	<ul class="list-group">
-  		<li class="list-group-item">
-    		<span class="badge">14</span>
-    		Wins:
-  		</li>
-  		<li class="list-group-item">
-    		<span class="badge">12</span>
-    		Losses:
-  		</li>
-	</ul>
+</div>	
 
 
-	<!-- Cats -->
-	<button class="btn btn-default btn1" type="submit">Button1</button>
-	<button class="btn btn-default btn2" type="submit">Button2</button>
-	<button class="btn btn-default btn3" type="submit">Button3</button>
-	<button class="btn btn-default btn4" type="submit">Button4</button>
-
-
-
-	<!--
-	<img src="assets/images/cat1a.png" alt="cat1" class="img-circle">
-	<img src="assets/images/cat2a.png" alt="cat2" class="img-circle">
-	<img src="assets/images/cat3a.png" alt="cat3" class="img-circle">
-	<img src="assets/images/cat4a.png" alt="cat4" class="img-circle">
-	-->
 
 
 
