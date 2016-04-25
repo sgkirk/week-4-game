@@ -2,12 +2,14 @@
 <html>
 <head>
 	<title>Week 4 Game</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<script type="text/javascript" src="assets/javascript/jquery-2.2.3.js"></script>
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
 </head>
 <body>
+
 <div class="container">
 
 	<!-- Game title -->
@@ -29,70 +31,58 @@
 		</div>
 
 
-
-
-		<!-- Randomly generated number -->
 		<div class="col-lg-6">
+			<!-- Randomly generated number -->
 			<div class="row">
-				<div class="targnum col-lg-4">
-			 		<h3>Target:</h3>
-	 	 			<h1 class="randnum">42</h1>
-	 	 		</div>
-			
+				<div class="targnum col-lg-3">
+					<h3>Target:</h3>
+			 	 	<h1 class="randnum">42</h1>
+			 	 </div>
+					
 
 				<!-- Your Number -->
-				<div class="yournum col-lg-4">
-					 <h3>Current:</h3>
-	 	 			<h1 class="randnum">36</h1>
+				<div class="yournum col-lg-3">
+					<h3>Current:</h3>
+			 	 	<h1 class="randnum">36</h1>
+				</div>
+
+				<!-- empty column -->
+				<div class="yournum col-lg-3">	
 				</div>
 
 				<!-- Wins and losses -->
-				<ul class="list-group col-lg-4">
-	  				<li class="list-group-item">
-	    			<span class="badge">14</span>
-	    			Wins:
-	  				</li>
-	  				<li class="list-group-item">
-	    			<span class="badge">12</span>
-	    			Losses:
-	  				</li>
+				<ul class="list-group col-lg-3">
+			  		<li class="list-group-item">
+			    	<span class="badge">14</span>
+			    	Wins:
+			  		</li>
+			  		<li class="list-group-item">
+			    	<span class="badge">12</span>
+			    	Losses:
+			  		</li>
 				</ul>
 			</div>
+				
 
-		
 			<!-- Cats -->
-			<div class="row">
-	
-			<button class="btn btn-default btn1 col-lg-3">
-			<img src="assets/images/cat1a.png" alt="cat1" class="img-circle"/>
-			</button>
-			<button class="btn btn-default btn2 col-lg-3">
-			<img src="assets/images/cat2a.png" alt="cat1" class="img-circle"/>
-			</button>
-			<button class="btn btn-default btn3 col-lg-3">
-			<img src="assets/images/cat3a.png" alt="cat1" class="img-circle"/>
-			</button>
-			<button class="btn btn-default btn4 col-lg-3">
-			<img src="assets/images/cat4a.png" alt="cat1" class="img-circle"/>
-			</button>
-
+			<div class="row kittens">
+			<div class="col-lg-12">
+				<button class="btn btn-default btn1 col-lg-3">
+					<img src="assets/images/cat1a.png" height=120px width=120px alt="cat1" class="img-circle"/>
+				</button>
+				<button class="btn btn-default btn2 col-lg-3">
+					<img src="assets/images/cat2a.png" height=120px width=120px alt="cat1" class="img-circle"/>
+				</button>
+				<button class="btn btn-default btn3 col-lg-3">
+					<img src="assets/images/cat3a.png" height=120px width=120px alt="cat1" class="img-circle"/>
+				</button>
+				<button class="btn btn-default btn4 col-lg-3">
+					<img src="assets/images/cat4a.png" height=120px width=120px alt="cat1" class="img-circle"/>
+				</button>
 			</div>
-
-
+			</div>
 		</div>
-
 	</div>
-
-</div>	
-
-
-
-
-
-
-
-
-
 
 </div>
 

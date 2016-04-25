@@ -1,0 +1,34 @@
+.yournum {
+	color: #6666ff;
+	text-align: center;
+
+
+
+}
+.targnum {
+	text-align: center;
+
+}
+
+.btn {border-style: none;}
+
+.btn-default {border-style: none;}
+
+.btn1 {border-style: none;}
+
+.btn:hover {text-decoration: none;
+		border-style: none;
+		background-color: none;
+	}
+
+.btn-default:hover {text-decoration: none;
+		border-style: none;
+		background-color: none;
+	}
+
+.btn1:hover {text-decoration: none;
+		border-style: none;
+		background-color: none;
+	}
+
+.kittens {padding-top: 40px;}
