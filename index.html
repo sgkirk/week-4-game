@@ -14,7 +14,7 @@
 
 	<!-- Game title -->
 	<div class="row">
-		<h1 class="col-lg-12">Cats Collector</h1>
+		<h1 class="col-lg-12">Cat Collector</h1>
 	</div>
 
 	<!-- Instructions -->
@@ -23,10 +23,10 @@
  			<div class="panel-heading"><h3>Instructions</h3></div>
   			<ul class="list-group">
   				<li class="list-group-item">1. You will be given a random target number at the start of the game.</li>
-    			<li class="list-group-item">2. There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+    			<li class="list-group-item">2. There are four cats to the right. By clicking on a cat you will add a specific amount of points to your total score.</li>
     			<li class="list-group-item">3. You win the game by matching your total score to the random number. You lose if your total score goes above the random number.</li>
-   	 			<li class="list-group-item">4. The value of each crystal is hidden from you until you click on it.</li>
-    			<li class="list-group-item">5. At the beginning of each game, the value of each crystal will change.</li>
+   	 			<li class="list-group-item">4. The value of each cat is hidden from you until you click on it.</li>
+    			<li class="list-group-item">5. At the beginning of each game, the value of each cat will change.</li>
   			</ul>
 		</div>
 
@@ -43,7 +43,7 @@
 				<!-- Your Number -->
 				<div class="col-lg-3">
 					<h3>Current:</h3>
-			 	 	<h1 id="current"></h1>
+			 	 	<h1 id="current">Click a Cat.</h1>
 				</div>
 
 				<!-- empty column -->
@@ -53,11 +53,11 @@
 				<!-- Wins and losses -->
 				<ul class="list-group col-lg-3">
 			  		<li class="list-group-item">
-			    	<span class="badge">14</span>
+			    	<span class="badge" id="wins"></span>
 			    	Wins:
 			  		</li>
 			  		<li class="list-group-item">
-			    	<span class="badge">12</span>
+			    	<span class="badge" id="losses"></span>
 			    	Losses:
 			  		</li>
 				</ul>
